@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Manually force Tailwind v4 to scan your JSX files */
+@source "../src/**/*.{js,jsx,ts,tsx}";
+
+html {
+  scroll-behavior: smooth;
+}
