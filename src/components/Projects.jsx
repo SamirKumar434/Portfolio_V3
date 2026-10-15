@@ -24,7 +24,7 @@ const projects = [
       "Zernio API",
     ],
     image: "/Screenshot (432).png",
-    demoUrl: "",
+    demoUrl: "https://social-media-automation-r24n.vercel.app/",
     githubUrl: "https://github.com/SamirKumar434/social-media-automation",
   },
   // Card 2 - AI SEO Tracker
@@ -228,14 +228,21 @@ export const ProjectSections = () => {
                   href={project.githubUrl || "#"}
                   target="_blank"
                   rel="noopener noreferrer"
-                  whileHover={shouldReduceMotion || !project.githubUrl ? {} : { x: 2, y: -1 }}
+                  whileHover={
+                    shouldReduceMotion || !project.githubUrl
+                      ? {}
+                      : { x: 2, y: -1 }
+                  }
                   transition={{ duration: 0.2 }}
                   className={`text-slate-500 dark:text-[#71717a] hover:text-orange-500 dark:hover:text-orange-500 transition-colors duration-200 flex items-center gap-1.5 text-sm ${
                     !project.githubUrl ? "opacity-50 cursor-not-allowed" : ""
                   }`}
                   onClick={(e) => !project.githubUrl && e.preventDefault()}
                 >
-                  <FaGithub size={16} className="transition-transform duration-200 group-hover/link:scale-110" />
+                  <FaGithub
+                    size={16}
+                    className="transition-transform duration-200 group-hover/link:scale-110"
+                  />
                   <span>Source</span>
                 </motion.a>
 
@@ -243,14 +250,21 @@ export const ProjectSections = () => {
                   href={project.demoUrl || "#"}
                   target="_blank"
                   rel="noopener noreferrer"
-                  whileHover={shouldReduceMotion || !project.demoUrl ? {} : { x: 2, y: -1 }}
+                  whileHover={
+                    shouldReduceMotion || !project.demoUrl
+                      ? {}
+                      : { x: 2, y: -1 }
+                  }
                   transition={{ duration: 0.2 }}
                   className={`text-slate-500 dark:text-[#71717a] hover:text-orange-500 dark:hover:text-orange-500 transition-colors duration-200 flex items-center gap-1.5 text-sm ${
                     !project.demoUrl ? "opacity-50 cursor-not-allowed" : ""
                   }`}
                   onClick={(e) => !project.demoUrl && e.preventDefault()}
                 >
-                  <ExternalLink size={16} className="transition-transform duration-200 group-hover/link:scale-110" />
+                  <ExternalLink
+                    size={16}
+                    className="transition-transform duration-200 group-hover/link:scale-110"
+                  />
                   <span>Live Demo</span>
                 </motion.a>
               </div>
