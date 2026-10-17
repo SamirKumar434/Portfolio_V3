@@ -48,7 +48,7 @@ const projects = [
       "A comprehensive platform for developers to host, share, and collaborate on algorithm implementations. Features a structured repository system and community-driven performance benchmarks.",
     tags: ["MERN Stack", "Redux", "Express"],
     image: "/Screenshot (189).png",
-    demoUrl: "https://algonest-dev.netlify.app",
+    demoUrl: "https://algo-nest-o82c.vercel.app/",
     githubUrl: "https://github.com/SamirKumar434/AlgoNest",
   },
   // Card 4 - Swiggy Clone
