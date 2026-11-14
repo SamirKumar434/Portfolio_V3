@@ -36,7 +36,7 @@ const projects = [
       "Full-stack application using MongoDB, Express.js, React.js and Node.js. Incorporates Browserbase for browser automation and website scraping, and Gemini AI for intelligent SEO analysis and report creation.",
     tags: ["MERN", "Rest API", "Gemini API", "Browserbase"],
     image: "/Screenshot (431).png",
-    demoUrl: "ai-seo-rank-tracker-frontend.vercel.app",
+    demoUrl: "https://ai-seo-rank-tracker-frontend.vercel.app/",
     githubUrl: "https://github.com/SamirKumar434/AI_SEO_Rank_Tracker",
   },
   // Card 3 - AlgoNest
